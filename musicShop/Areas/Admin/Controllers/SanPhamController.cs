@@ -116,8 +116,8 @@ namespace musicShop.Areas.Admin.Controllers
         // GET: SanPham/Create
         public IActionResult Create ()
         {
-            ViewData["HangSanXuatID"] = new SelectList(_context.HangSanXuat, "ID", "ID");
-            ViewData["LoaiSanPhamID"] = new SelectList(_context.LoaiSanPham, "ID", "ID");
+            ViewData["HangSanXuatID"] = new SelectList(_context.HangSanXuat, "ID", "TenHangSanXuat");
+            ViewData["LoaiSanPhamID"] = new SelectList(_context.LoaiSanPham, "ID", "TenLoai");
             return View();
         }
 

@@ -509,16 +509,40 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.map"
     },
     {
+      "Id": "D:\\ASP\\musicShop\\musicShop\\wwwroot\\uploads\\ableton-vp2520-2000w-dual-15-inch-passive-speaker.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ableton-vp2520-2000w-dual-15-inch-passive-speaker.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\musicShop\\musicShop\\wwwroot\\uploads\\bad-cat-eurolive-b115d-1000w-15-inch-powered-speaker.jpg",
+      "PackagePath": "staticwebassets\\uploads\\bad-cat-eurolive-b115d-1000w-15-inch-powered-speaker.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\musicShop\\musicShop\\wwwroot\\uploads\\bad-cat-pro-ii-podcast-production-studio.jpg",
+      "PackagePath": "staticwebassets\\uploads\\bad-cat-pro-ii-podcast-production-studio.jpg"
+    },
+    {
       "Id": "D:\\ASP\\musicShop\\musicShop\\wwwroot\\uploads\\behringer-eurolive-b115d-1000w-15-inch-powered-speaker.jpg",
       "PackagePath": "staticwebassets\\uploads\\behringer-eurolive-b115d-1000w-15-inch-powered-speaker.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\musicShop\\musicShop\\wwwroot\\uploads\\ddm4000-5-channel-digital-dj-mixer.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ddm4000-5-channel-digital-dj-mixer.jpg"
     },
     {
       "Id": "D:\\ASP\\musicShop\\musicShop\\wwwroot\\uploads\\fender-cn-60s-nylon-string-classical-guitar.jpg",
       "PackagePath": "staticwebassets\\uploads\\fender-cn-60s-nylon-string-classical-guitar.jpg"
     },
     {
+      "Id": "D:\\ASP\\musicShop\\musicShop\\wwwroot\\uploads\\flow-8-8-input-digital-mixer.jpg",
+      "PackagePath": "staticwebassets\\uploads\\flow-8-8-input-digital-mixer.jpg"
+    },
+    {
       "Id": "D:\\ASP\\musicShop\\musicShop\\wwwroot\\uploads\\ibanez-ga6ce-am-classical-guitar.jpg",
       "PackagePath": "staticwebassets\\uploads\\ibanez-ga6ce-am-classical-guitar.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\musicShop\\musicShop\\wwwroot\\uploads\\kala-studiolive-ar12c-12-channel-analog-mixer.jpg",
+      "PackagePath": "staticwebassets\\uploads\\kala-studiolive-ar12c-12-channel-analog-mixer.jpg"
     },
     {
       "Id": "D:\\ASP\\musicShop\\musicShop\\wwwroot\\uploads\\squier-40th-anniv-vintage-ed.-jazzmaster-electric-guitar.jpg",

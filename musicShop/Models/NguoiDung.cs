@@ -14,6 +14,11 @@ namespace musicShop.Models
         [DisplayName("Họ và tên")]
         public string HoVaTen { get; set; }
 
+        [StringLength(255)]
+        [Required(ErrorMessage = "Email không được bỏ trống!")]
+        [DisplayName("Email")]
+        public string Email { get; set; }
+
         [StringLength(20)]
         [DisplayName("Điện thoại")]
         public string? DienThoai { get; set; }
@@ -59,6 +64,7 @@ namespace musicShop.Models
         {
             ID = n.ID;
             HoVaTen = n.HoVaTen;
+            Email = n.Email;
             DienThoai = n.DienThoai;
             DiaChi = n.DiaChi;
             TenDangNhap = n.TenDangNhap;
@@ -74,6 +80,11 @@ namespace musicShop.Models
         [Required(ErrorMessage = "Họ và tên không được bỏ trống!")]
         [DisplayName("Họ và tên")]
         public string HoVaTen { get; set; }
+
+        [StringLength(255)]
+        [Required(ErrorMessage = "Email không được bỏ trống!")]
+        [DisplayName("Email")]
+        public string Email { get; set; }
 
         [StringLength(20)]
         [DisplayName("Điện thoại")]

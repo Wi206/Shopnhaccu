@@ -85,7 +85,7 @@
             filter: true, // Hiển thị ô Tìm kiếm
             orderMulti: false, // Chỉ cho sắp xếp mỗi lần 1 cột
             ajax: {
-                url: '@Url.Action("Index_LoadData", "SanPham", new { Area = "" })', // Hàm lấy dữ liệu Index_LoadData() bên trong SanPhamController
+                url: '@Url.Action("Index_LoadData", "SanPham", new { Area = "Admin" })', // Hàm lấy dữ liệu Index_LoadData() bên trong SanPhamController
                 type: 'POST',
                 datatype: 'json'
             },
@@ -151,7 +151,7 @@
                     name: null,
                     sortable: false, // Không cho sắp xếp
                     render: function (data, type, row, meta) {
-                        return '<a href="/SanPham/Edit/' + row.ID + '"><i class="fa-light fa-pen-to-square"></i></a>';
+                        return '<a href="/Admin/SanPham/Edit/' + row.ID + '"><i class="fa-light fa-pen-to-square"></i></a>';
                     }
                 },
                 {
@@ -160,7 +160,7 @@
                     name: null,
                     sortable: false, // Không cho sắp xếp
                     render: function (data, type, row, meta) {
-                        return '<a href="/SanPham/Delete/' + row.ID + '"><i class="fa-light fa-trash-can text-danger"></i></a>';
+                        return '<a href="/Admin/SanPham/Delete/' + row.ID + '"><i class="fa-light fa-trash-can text-danger"></i></a>';
                     }
                 }
             ],

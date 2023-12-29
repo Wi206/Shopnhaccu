@@ -13,9 +13,9 @@ namespace musicShop.Models
 
         public int SanPhamID { get; set; }
         public int SoLuongTrongGio { get; set; }
-    
- 
- [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy HH:mm:ss}", ApplyFormatInEditMode = false)]
+
+
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy HH:mm:ss}", ApplyFormatInEditMode = false)]
         public DateTime ThoiGian { get; set; }
 
         public SanPham? SanPham { get; set; }

@@ -256,3 +256,8 @@ D:\ASP\musicShop\musicShop\obj\Debug\net7.0\ref\musicShop.dll
 D:\ASP\musicShop\musicShop\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll
 D:\ASP\musicShop\musicShop\bin\Debug\net7.0\BCrypt.Net-Next.dll
 D:\ASP\musicShop\musicShop\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ASP\musicShop\musicShop\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+D:\ASP\musicShop\musicShop\bin\Debug\net7.0\MailKit.dll
+D:\ASP\musicShop\musicShop\bin\Debug\net7.0\MimeKit.dll
+D:\ASP\musicShop\musicShop\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\ASP\musicShop\musicShop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll

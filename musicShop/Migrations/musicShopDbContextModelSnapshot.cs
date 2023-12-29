@@ -87,6 +87,33 @@ namespace musicShop.Migrations
                     b.ToTable("DatHang_ChiTiet", (string)null);
                 });
 
+            modelBuilder.Entity("musicShop.Models.GioHang", b =>
+                {
+                    b.Property<string>("ID")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<int>("SanPhamID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SoLuongTrongGio")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TenDangNhap")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<DateTime>("ThoiGian")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("SanPhamID");
+
+                    b.ToTable("GioHang", (string)null);
+                });
+
             modelBuilder.Entity("musicShop.Models.HangSanXuat", b =>
                 {
                     b.Property<int>("ID")
@@ -138,6 +165,11 @@ namespace musicShop.Migrations
                     b.Property<string>("DienThoai")
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("HoVaTen")
                         .IsRequired()
@@ -255,6 +287,17 @@ namespace musicShop.Migrations
                         .IsRequired();
 
                     b.Navigation("DatHang");
+
+                    b.Navigation("SanPham");
+                });
+
+            modelBuilder.Entity("musicShop.Models.GioHang", b =>
+                {
+                    b.HasOne("musicShop.Models.SanPham", "SanPham")
+                        .WithMany()
+                        .HasForeignKey("SanPhamID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("SanPham");
                 });

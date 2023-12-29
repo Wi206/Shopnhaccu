@@ -59,7 +59,14 @@ namespace musicShop.Models
         public LoaiSanPham? LoaiSanPham { get; set; }
 
         public HangSanXuat? HangSanXuat { get; set; }
-
-
+    }
+    [NotMapped]
+    public class PhanTrangSanPham
+    {
+        public int TrangHienTai { get; set; }
+        public int TongSoTrang { get; set; }
+        public List<SanPham> SanPham { get; set; }
+        public bool HasPreviousPage => TrangHienTai > 1;
+        public bool HasNextPage => TrangHienTai < TongSoTrang;
     }
 }
